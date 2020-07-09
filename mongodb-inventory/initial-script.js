@@ -1,7 +1,7 @@
 let instructions = [
     db.inventory.drop(),
     db.inventory.insert({
-        "_id":"inv001",
+        "_id":ObjectId("57a98d98e4b00679b4a830af"),
         "name":"single",
         "description":"available",
         "quantity":"1"
@@ -51,7 +51,7 @@ let instructions = [
 //         "type":"double",
 //         "status":"available"
 //     })
-// ];
+];
 
 instructions.forEach(function(instruction) {
     printjson(instruction);
